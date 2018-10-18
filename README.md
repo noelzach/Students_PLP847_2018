@@ -8,8 +8,8 @@ Download the homework.tar.gz file
 
 uplad it in your HPPC and unpack it using
 
-tar -zcvf archive.tar.gz directory/ 
+'tar -zcvf homework.tar.gz homework/' 
 
-follow the instruction contained in the README.txt file after!!
+before doing it read the instruction contained in the README.txt file!!
 
 !!Have fun coding!!
