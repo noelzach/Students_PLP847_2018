@@ -32,15 +32,15 @@ you can use command line script or Filezilla
 `[benucci@dev-intel14 miseq_students_2018]$ cd homework/`<br/>
 `[benucci@dev-intel18 homework]$ ll`
 
-you shold see something like this
+you should see something like this
 
 `total 20`<br/>
 `drwxr-x--- 2 benucci psm   3 Oct 17 21:12 raw_reads`<br/>
 `-rw-r----- 1 benucci psm 443 Oct 17 21:09 README.txt`<br/>
 `-rw-r----- 1 benucci psm 981 Oct 16 15:25 test.sb`
 
-explore the folder and  files using `cd, ll, ls, cat, head, tail` ...
-if you need help for how to use a command use `man <commandname>` or
+explore the folder and files using `cd, ll, ls, cat, head, tail` ...
+if you need help on how to use a command use `man <commandname>` or
  `<commandname> --help`,  for example
 
 `[benucci@dev-intel18 homework]$ ll --help`
@@ -50,7 +50,7 @@ some analyses into your HPCC account. Look at the script called `test.sb`
 
 `[benucci@dev-intel18 homework]$ cat test.sb`
 
-You will have something like this
+You will print something like this
 
 ------------- start code ---------------<br/>
 `#!/bin/bash -login`<br/>
@@ -78,9 +78,9 @@ You will have something like this
 So, what is this??? What are all those instructions? 
 
 test.sb represents a "job." A file containing the code that
-will perform the  analysis we want to perform and all the instructions
-for the HPCC cluster about, how much time we need, how much computational
-power, how much RAM etc. 
+will perform the analysis and all the instructions
+for the HPCC cluster about how much time we need, how much computational
+power, how much RAM etc. to run the code and get the results
 
 We will talk about it in class on Tuesday! So do 
 some research an be ready to answer my questions.
