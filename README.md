@@ -3,12 +3,12 @@ Student repo bioinfo code, homework and assignments etc.
 
 # Homework - Tuesday Oct 23rd 2018
 
-*to reach me see below
+# to reach me see below
 Gian M N Benucci, Ph.D.<br/>
 Michigan State University<br/>
 benucci<at>msu.edu
 
-*Let start!
+# Let start!
 
 Download the `homework.tar.gz` file form Github then 
 Login into HPCC and then into one of the dev nodes
