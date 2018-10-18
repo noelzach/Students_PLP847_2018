@@ -52,7 +52,7 @@ some analyses into your HPCC account. Look at the script called `test.sb`
 
 You will have something like this
 
-------------- start code ---------------
+------------- start code ---------------<br/>
 `#!/bin/bash -login`<br/>
 
 `#SBATCH --time=00:10:00			# limit of wall clock time - how long the job will run (same as -t)`<br/>
@@ -73,7 +73,7 @@ You will have something like this
 `do gunzip -c "$fastq" | paste - - - - | wc -l && echo $fastq `<br/>
 `done > ../test/reads_raw.counts`
 
------------------- end code --------------------
+------------------ end code --------------------<br/>
 
 So, what is this??? What are all those instructions? 
 
