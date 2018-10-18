@@ -6,7 +6,7 @@ Student repo bioinfo code, homework and assignments etc.
 # to reach me see below
 Gian M N Benucci, Ph.D.<br/>
 Michigan State University<br/>
-benucci<at>msu.edu
+benucciATmsu.edu
 
 # Let start!
 
