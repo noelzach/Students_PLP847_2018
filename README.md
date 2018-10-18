@@ -105,6 +105,6 @@ When is done, navigate inside your folder and see what the code did,
 we will talk about it on the next Tuesday 
 
 If you need to contact me you can reach me by email, please see on
-the top of this README.rmd file
+the top of this README.md file
 
 ## HAPPY CODING TO EVRYONE!!! ##
