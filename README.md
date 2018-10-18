@@ -1,5 +1,5 @@
 # Students_PLP847_2018 
-Student repo bioinfo code, homework and assignments
+Student repo bioinfo code, homework and assignments etc.
 
 # Homework - Tuesday Oct 23rd 2018
 
@@ -77,7 +77,7 @@ You will have something like this
 
 So, what is this??? What are all those instructions? 
 
-test.sb represent a job, that is a file containing the code that
+test.sb represents a "job." A file containing the code that
 will perform the  analysis we want to perform and all the instructions
 for the HPCC cluster about, how much time we need, how much computational
 power, how much RAM etc. 
