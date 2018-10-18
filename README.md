@@ -3,7 +3,7 @@ Student repo bioinfo code, homework and assignments etc.
 
 # Homework - Tuesday Oct 23rd 2018
 
-# to reach me se below
+*to reach me see below
 Gian M N Benucci, Ph.D.<br/>
 Michigan State University<br/>
 benucci<at>msu.edu
