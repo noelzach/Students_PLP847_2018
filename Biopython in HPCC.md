@@ -2,7 +2,7 @@
 
 Useful links
 
-https://wiki.hpcc.msu.edu/display/~longnany@msu.edu/Using+conda
+https://wiki.hpcc.msu.edu/display/~longnany@msu.edu/Using+conda<br/>
 http://docs.anaconda.com/anaconda/install/linux/
 
 Download Anaconda here https://www.anaconda.com/download/#linux
@@ -43,29 +43,9 @@ Now you can add a packahe to the created environment
 To use conda and activate one of your environments and use it on the terminal
 or inside a job type
 
-`conda activate py2`
-`<your commands>`
+`conda activate py2`<br/>
+`<your commands>`<br/>
 `conda deactivate`
 
-Enjoy your Biopython on HPCC!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# You are done. Enjoy your Biopython on HPCC @ MSU!
 
