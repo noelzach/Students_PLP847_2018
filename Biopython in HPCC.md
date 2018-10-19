@@ -24,7 +24,34 @@ After your install is complete, verify it by opening Anaconda Navigator
 
 Check the insalled version by running
 
-'conda --version'
+`conda --version`
+
+To use Biopython we need to create an environment with python 2 and then 
+install biopython 
+
+`conda create --name py2 python 2.7`
+
+You will probably get prompted to install new packages, type ‘y’ and hit "Enter". 
+When it is done, display your list of environments with
+
+`conda list`
+
+Now you can add a packahe to the created environment
+
+`conda install -n py2 biopython`
+
+To use conda and activate one of your environments and use it on the terminal
+or inside a job type
+
+`conda activate py2`
+`<your commands>`
+`conda deactivate`
+
+Enjoy your Biopython on HPCC!
+
+
+
+
 
 
 
