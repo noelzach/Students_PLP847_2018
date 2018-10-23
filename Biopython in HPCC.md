@@ -9,7 +9,8 @@ Download Anaconda here https://www.anaconda.com/download/#linux
 
 Upload the installer in the HPCC and run
 
-`bash ~/Downloads/Anaconda2-5.3.0-Linux-x86_64.sh`
+`wget https://repo.anaconda.com/archive/Anaconda2-5.3.0-Linux-x86_64.sh`<br/>
+`bash ~/Anaconda2-5.3.0-Linux-x86_64.sh`<br/>
 
 Review the license agreement, clic Yes to agree.
 Enter Yes to repend the Anaconda2 install location to PATH in your /home/<user>/.bashrc
