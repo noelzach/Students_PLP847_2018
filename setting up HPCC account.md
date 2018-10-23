@@ -32,11 +32,11 @@ you can use command line script or Filezilla
 `[benucci@dev-intel14 miseq_students_2018]$ cd homework/`<br/>
 `[benucci@dev-intel18 homework]$ ll`
 
-f: this must be the last flag of the command, and the tar file must be immediately after. 
-   It tells tar the name and path of the compressed file.
-z: tells tar to decompress the archive using gzip
-x: tar can collect files or extract them. x does the latter.
-v: makes tar talk a lot. Verbose output shows you all the files being extracted.
+f: this must be the last flag of the command, and the tar file must be immediately after. <br/>
+   It tells tar the name and path of the compressed file.<br/>
+z: tells tar to decompress the archive using gzip<br/>
+x: tar can collect files or extract them. x does the latter.<br/>
+v: makes tar talk a lot. Verbose output shows you all the files being extracted.<br/>
 
 you should see something like this
 
