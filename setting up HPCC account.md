@@ -8,7 +8,7 @@ Gian M N Benucci, Ph.D.<br/>
 Michigan State University<br/>
 benucciATmsu.edu
 
-# Let start!
+# Let's start!
 
 Download the `homework.tar.gz` file form Github then 
 Login into HPCC and then into one of the dev nodes
