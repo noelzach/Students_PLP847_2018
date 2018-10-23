@@ -36,7 +36,7 @@ When it is done, display your list of environments with
 
 `conda list`
 
-Now you can add a packahe to the created environment
+Now you can add a package to the created environment
 
 `conda install -n py2 biopython`
 
