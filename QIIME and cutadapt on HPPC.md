@@ -21,11 +21,11 @@ Now test it, run
 Anytime you want to use QIIME 1 after installation with anaconda, 
 you’ll need to reactivate your qiime1 environment by running
 
-`[benucci@dev-intel16 ~]$ source activate qiime1`<br/>
+`[benucci@dev-intel16 ~]$ conda activate qiime1`<br/>
 
 and to exit
 
-`[benucci@dev-intel16 ~]$  source deactivate`<br/>
+`[benucci@dev-intel16 ~]$ conda deactivate`<br/>
 
 # how to use cutadapt or 2 in the HPCC, Michiagn State University
 https://cutadapt.readthedocs.io/en/stable/guide.html
