@@ -1,4 +1,4 @@
-# to run Python 2 and Biopython in the HPCC cluster, Michigan State University<br/>
+# to run Python 2 and Biopython in the HPCC cluster, Michigan State University 
 # you need the anaconda platform. Let's get started on how to get your own anaconda!
 
 *Very useful links
