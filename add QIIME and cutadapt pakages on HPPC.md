@@ -1,5 +1,7 @@
 # how to use QIIME1 or 2 in the HPCC, Michiagn State University
+
 http://qiime.org/install/install.html
+https://cutadapt.readthedocs.io/en/stable/installation.html
 
 have a look at the created environemnts, run
 
