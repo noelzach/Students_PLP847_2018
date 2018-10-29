@@ -1,7 +1,7 @@
 # to run Python 2 and Biopython in the HPCC cluster, Michigan State University 
 # you need the anaconda platform. Let's get started on how to get your own anaconda!
 
-*Very useful links
+*Very useful links*
 
 https://wiki.hpcc.msu.edu/display/~longnany@msu.edu/Using+conda<br/>
 http://docs.anaconda.com/anaconda/install/linux/
@@ -20,7 +20,7 @@ To make the installation effective run
 
 `source ~/.bashrc`
 
-After your install is complete, verify it by opening Anaconda Navigator
+After your install is complete, verify it by opening Anaconda Navigator (this is optional)
 
 `anaconda-navigator`
 
@@ -36,7 +36,12 @@ install biopython
 You will probably get prompted to install new packages, type ‘y’ and hit "Enter". 
 When it is done, display your list of environments with
 
-`conda list`
+`conda info --envs` <br/>
+
+Look in your newly created environment if you have the packages you wanted
+
+`conda activate py2` <br/>
+`conda list` <br/>
 
 Now you can add a package to the created environment
 
