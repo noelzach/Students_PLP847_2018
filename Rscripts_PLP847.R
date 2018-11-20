@@ -11,7 +11,7 @@ library(indicspecies)
 library(vegan)
 
 # create a phyloseq object ----------
-morel_otus <- read.delim("clustered_UNOISE-UPARSE_ITS/otu_table_ITS_UPARSE.txt",
+morel_otus <- read.delim("otu_table.txt",
                          row.names=1) 
 head(morel_otus)
 dim(morel_otus)
@@ -22,13 +22,13 @@ morel_otus_phy <-otu_table(morel_otus,
 morel_otus_phy
 str(morel_otus_phy)
 
-morel_metadata <-read.delim("mapping_ITS_new.txt",
+morel_metadata <-read.delim("mapping.txt",
                             row.names=1)
 morel_metadata
 morel_metadata_phy <-sample_data(morel_metadata)
 morel_metadata_phy
 
-morel_taxonomy<-read.delim("clustered_UNOISE-UPARSE_ITS/consensus_taxonomy.txt",
+morel_taxonomy<-read.delim("consensus_taxonomy.txt",
                            header=TRUE, 
                            row.names=1)
 morel_taxonomy
@@ -36,7 +36,7 @@ morel_taxonomy
 morel_taxonomy_phy <- tax_table(as.matrix(morel_taxonomy))
 morel_taxonomy_phy
 
-morel_otus_rep_seq <- readDNAStringSet("otus_ITS.fasta", format="fasta", seek.first.rec=TRUE, use.names=TRUE)
+morel_otus_rep_seq <- readDNAStringSet("otus_rep.fasta", format="fasta", seek.first.rec=TRUE, use.names=TRUE)
 morel_otus_rep_seq
 
 physeq_object <- phyloseq(morel_otus_phy, 
@@ -63,7 +63,6 @@ tax_table(physeq_object)
 # Lindhal et al. 2013, tag switching - that's a good  one!
 # Barberan et al. 2012, removing OTUs that appear in less than x samples
 
-
 physeq_object -> physeq_object_filt
 otu_table(physeq_object_filt)[otu_table(physeq_object_filt) <= 4] <- 0 ### tag switching
 otu_table(physeq_object_filt) <- otu_table(physeq_object_filt)[which(rowSums(otu_table(physeq_object_filt)) >= 10),] ### PCR Errors 
@@ -74,4 +73,4 @@ library(metagMisc)
 physeq_object_filt <- phyloseq_filter_prevalence(physeq_object_filt, prev.trh = 0.05, abund.trh = NULL)
 physeq_object_filt
 
-
+...
