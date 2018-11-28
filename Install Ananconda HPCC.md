@@ -33,6 +33,10 @@ install biopython
 
 `conda create --name py2 python 2.7`
 
+The HPCC now defaults to python3, so to create a new environment in python3 enter the following command 
+
+`conda create -n py2 python=2.7`
+
 You will probably get prompted to install new packages, type ‘y’ and hit "Enter". 
 When it is done, display your list of environments with
 
